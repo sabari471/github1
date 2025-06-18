@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="icon" href="images.jpeg">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            background-color:black;
+            height: 70px;
+        }
+        li{
+            display: inline-block;
+            padding: 30px;
+
+        }
+        h1{
+            display: inline-block;
+            position: relative;
+            top: 18px;
+            color: red;
+        }
+        ul{
+            display: inline-block;
+            margin-left: 60px;
+            position:absolute;
+            left: 700px;
+        }
+        a{
+            text-decoration: none;
+            color:yellow;
+        }
+
+        li:hover{
+            transform: scale(1.2);
+            transition: all ease;
+            animation-delay: 2ms;
+        }
+        
+        .container{
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        .container4{
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+            position: absolute;
+            left: 750px;
+            top: 500px;
+        }
+
+        .container1{
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+            position: absolute;
+            left: 550px;
+            top: 100px;
+        }
+        .container2{
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+            position: absolute;
+            left: 1000px;
+            top: 100px;
+        }.container3{
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+            position: absolute;
+            left: 350px;
+            top: 500px;
+            
+        }
+        div:hover{
+            border: 5px solid rgb(184, 191, 170);
+        }
+        div:hover{
+            transform: scale(1.05);
+            transition: all ease;
+            animation-delay: 2ms;
+        }
+        img{
+            height: 100px;
+            width:100px;
+            position: relative;
+            left: 80px;
+        }
+        img:hover{
+            opacity: 0.5;
+            transform: scale(1.1);
+        }
+        p:hover{
+            transform: scale3d(1.5);
+            padding: 10px;
+        }
+        table{
+            position:absolute;
+            top: 850px;
+            left: 450px;
+        }
+        .list{
+            position: relative;
+            top: 1500px;
+        }
+         
+
+    </style>
+</head>
+<body>
+    <nav class="nav-container">
+        <h1 class="heading">HTML</h1>
+            <ul class="nav-items">
+                <li class="listitems"><a href="">HOME</a></li>
+                <li class="listitems"><a href="">SERVICES</a></li>
+                <li class="listitems"><a href="">ABOUT US</a></li>
+                <li class="listitems"><a href="">CONTACT</a></li>
+                
+            </ul>
+            
+    </nav>
+    <div class="container">
+        <img src="images.jpeg" alt="image" >
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora suscipit ducimus dignissimos ipsa veritatis libero fugit! Sapiente facere illum eaque unde omnis, quas quaerat est, dolorum aspernatur temporibus officiis fugit eveniet dolore consectetur eligendi blanditiis! Molestiae nemo, ducimus nesciunt mollitia, ipsum rerum, non tempora saepe vitae nisi unde expedita!</p>
+    </div>
+    <div class="container1">
+        <img src="images.jpeg" alt="image" >
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae temporibus doloremque iusto corrupti, vero impedit itaque exercitationem quo qui perspiciatis consectetur accusamus repudiandae nesciunt perferendis molestiae laborum et provident atque nostrum eligendi nobis aliquam. At, expedita cum facere architecto provident magni ex rerum eius doloribus, dolores dolore pariatur eligendi quasi?</p>
+    </div>
+    <div class="container2">
+        <img src="images.jpeg" alt="image" >
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum ipsa architecto ducimus dolorem tempora illum repellat itaque, amet eius commodi atque eos magni fuga ipsum minima dignissimos harum iure. Doloremque qui dolores sit modi itaque quidem delectus voluptas numquam veritatis. Quas possimus ipsam commodi quibusdam, vel laudantium architecto officia.</p>
+    </div>
+    <div class="container3" id="hei">
+        <img src="images.jpeg" alt="image" >
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, maiores. A tenetur delectus quam quo deleniti, facere, ducimus dolores dolorum iusto, nisi numquam saepe praesentium fugiat quaerat. Alias quis fugit dolor voluptate soluta non doloribus sapiente, aliquid quod quasi repellendus commodi culpa unde iure incidunt deserunt repellat atque nisi suscipit.</p>
+    </div>
+    <div class="container4" id="hei">
+        <img src="images.jpeg" alt="image" >
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, maiores. A tenetur delectus quam quo deleniti, facere, ducimus dolores dolorum iusto, nisi numquam saepe praesentium fugiat quaerat. Alias quis fugit dolor voluptate soluta non doloribus sapiente, aliquid quod quasi repellendus commodi culpa unde iure incidunt deserunt repellat atque nisi suscipit.</p>
+    </div>
+    
+  
+  <div class="list">
+        <h1>Course Outline</h1>
+
+    <ol type="I">
+        <li>Background Skills
+            <ol type="A">
+                <li>Unix Commands</li>
+                <li>Vim Text Editor</li>
+            </ol>
+        </li>
+        <li>HTML
+            <ol type="A">
+                <li>Minimal Page</li>
+                <li>Headings</li>
+                <li>Tags</li>
+                <li>Lists
+                    <ol type="1">
+                        <li>Unordered</li>
+                        <li>Ordered</li>
+                        <li>Definition</li>
+                        <li>Nested</li>
+                    </ol>
+                </li>
+                <li>Links
+                    <ol type="1">
+                        <li>Absolute</li>
+                        <li>Relative</li>
+                    </ol>
+                </li>
+                <li>Images</li>
+            </ol>
+        </li>
+        <li>CSS
+            <ol type="A">
+                <li>Anatomy</li>
+                <li>Basic Selectors
+                    <ol type="1">
+                        <li>Element</li>
+                        <li>Class</li>
+                        <li>ID</li>
+                        <li>Group</li>
+                    </ol>
+                </li>
+                <li>The DOM</li>
+                <li>Advanced Selectors</li>
+                <li>Box Model</li>
+            </ol>
+        </li>
+        <li>Programming
+            <ol type="A">
+                <li>Python</li>
+                <li>JavaScript</li>
+            </ol>
+        </li>
+        <li>Database
+            <ol type="A">
+                <li>Flat File</li>
+                <li>Relational</li>
+            </ol>
+        </li>
+    </ol>
+  </div>
+  <div class="table">
+
+  </div>
+
+</body>
+</html>
