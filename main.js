@@ -17,7 +17,7 @@ console.log(e);
  console.log(a == b);
  console.log(a != b);
  console.log(a,b);
- console.log((a&&b),(b&&j));
+ console.log((a&&b)+","+(b&&j));
 if (a == b){
     console.log("a is equal to b");
 }
