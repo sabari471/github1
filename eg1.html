@@ -9,6 +9,15 @@
         *{
             padding: 0;
             margin: 0;
+            
+        }
+        body{
+            background: url(images.jpeg) no-repeat;
+            background-position: center;
+            background-size: cover;
+            background: linear-gradient(from top left red,green,blue) no-repeat;
+            background-blend-mode:hue;
+            
         }
         nav{
             background-color:black;
@@ -49,6 +58,9 @@
             position: absolute;
             left: 100px;
             top: 100px;
+            padding: 10px;
+             border: 5px solid black;
+            
         }
         .container4{
             height: 300px;
@@ -57,6 +69,8 @@
             position: absolute;
             left: 750px;
             top: 500px;
+            padding: 10px;
+             border: 5px solid black;
         }
 
         .container1{
@@ -66,6 +80,8 @@
             position: absolute;
             left: 550px;
             top: 100px;
+            padding: 10px;
+             border: 5px solid black;
         }
         .container2{
             height: 300px;
@@ -74,6 +90,8 @@
             position: absolute;
             left: 1000px;
             top: 100px;
+            padding: 10px;
+             border: 5px solid black;
         }.container3{
             height: 300px;
             width: 300px;
@@ -81,6 +99,8 @@
             position: absolute;
             left: 350px;
             top: 500px;
+            padding: 10px;
+            border: 5px solid black;
             
         }
         div:hover{
@@ -96,6 +116,7 @@
             width:100px;
             position: relative;
             left: 80px;
+            border: 2px solid red;
         }
         img:hover{
             opacity: 0.5;
@@ -114,6 +135,45 @@
             position: relative;
             top: 1500px;
         }
+        .btn1{
+            margin-left: 100px;
+            color: white;
+            background-color: black;
+            border-radius: 40px;
+            line-height: 20px;
+            
+        }
+    
+        
+       
+        @media screen and (max-width : 900px) {
+            .heading{
+               color: green;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+        @media screen and (max-width : 600px) {
+            .heading{
+               color:blueviolet;
+               font-family:Arial, Helvetica, sans-serif;
+            }
+        }
+        @media screen and (max-width : 300px) {
+            .heading{
+               color:aqua;
+               font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            }
+        }
+        @media screen and (orientation: portrait)
+        {
+            .heading{
+                color:thistle;
+            }
+        }
+        
+        
+            
+        
          
 
     </style>
@@ -130,27 +190,33 @@
             </ul>
             
     </nav>
+    <div class="flex">
     <div class="container">
         <img src="images.jpeg" alt="image" >
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora suscipit ducimus dignissimos ipsa veritatis libero fugit! Sapiente facere illum eaque unde omnis, quas quaerat est, dolorum aspernatur temporibus officiis fugit eveniet dolore consectetur eligendi blanditiis! Molestiae nemo, ducimus nesciunt mollitia, ipsum rerum, non tempora saepe vitae nisi unde expedita!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quait fugitur eligendi blanditiis! Molestiae nemo, ducimus nesciunt mollitia, ipsum rerum, non tempora saepe vitae nisi unde expedita!</p>
+        <button class="btn1">CLICK HERE</button>
     </div>
     <div class="container1">
         <img src="images.jpeg" alt="image" >
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae temporibus doloremque iusto corrupti, vero impedit itaque exercitationem quo qui perspiciatis consectetur accusamus repudiandae nesciunt perferendis molestiae laborum et provident atque nostrum eligendi nobis aliquam. At, expedita cum facere architecto provident magni ex rerum eius doloribus, dolores dolore pariatur eligendi quasi?</p>
+        <p>Lorem ipsum dolor sit amet, consect consectetur accusamus repudiandae nesciunt perferendis molestiae laborum et provident atque nostrum eligendi nobis aliquam. At, expedita cum facere architecto provident magni ex rerum eius doloribus, dolores dolore pariatur eligendi quasi?</p>
+        <button class="btn1">CLICK HERE</button>
     </div>
     <div class="container2">
         <img src="images.jpeg" alt="image" >
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum ipsa architecto ducimus dolorem tempora illum repellat itaque, amet eius commodi atque eos magni fuga ipsum minima dignissimos harum iure. Doloremque qui dolores sit modi itaque quidem delectus voluptas numquam veritatis. Quas possimus ipsam commodi quibusdam, vel laudantium architecto officia.</p>
+        <p>Lorem ipsum dolor sit amet consecteturatque eos magni fuga ipsum minima dignissimos harum iure. Doloremque qui dolores sit modi itaque quidem delectus voluptas numquam veritatis. Quas possimus ipsam commodi quibusdam, vel laudantium architecto officia.</p>
+        <button class="btn1">CLICK HERE</button>
     </div>
     <div class="container3" id="hei">
         <img src="images.jpeg" alt="image" >
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, maiores. A tenetur delectus quam quo deleniti, facere, ducimus dolores dolorum iusto, nisi numquam saepe praesentium fugiat quaerat. Alias quis fugit dolor voluptate soluta non doloribus sapiente, aliquid quod quasi repellendus commodi culpa unde iure incidunt deserunt repellat atque nisi suscipit.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisium iusto, nisi numquam saepe praesentium fugiat quaerat. Alias quis fugit dolor voluptate soluta non doloribus sapiente, aliquid quod quasi repellendus commodi culpa unde iure incidunt deserunt repellat atque nisi suscipit.</p>
+        <button class="btn1">CLICK HERE</button>
     </div>
     <div class="container4" id="hei">
         <img src="images.jpeg" alt="image" >
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, maiores. A tenetur delectus quam quo deleniti, facere, ducimus dolores dolorum iusto, nisi numquam saepe praesentium fugiat quaerat. Alias quis fugit dolor voluptate soluta non doloribus sapiente, aliquid quod quasi repellendus commodi culpa unde iure incidunt deserunt repellat atque nisi suscipit.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipilias quis fugit dolor voluptate soluta non doloribus sapiente, aliquid quod quasi repellendus commodi culpa unde iure incidunt deserunt repellat atque nisi suscipit.</p>
+        <button class="btn1">CLICK HERE</button>
     </div>
-    
+    </div>
   
   <div class="list">
         <h1>Course Outline</h1>
