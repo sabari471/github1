@@ -102,4 +102,59 @@ console.log("student 4 total : ",std4t);
 let arr = [std1t,std2t,std3t,std4t];
 let filt = arr.filter(arr => arr>450) ;
 console.log("mark more than 450 : ",filt);
+/*let mark;
+let r;
+let stu = [{
+    name:"stu1",
+    mark: [10,19,29,20,20],
+    r: mark.reduce((a, b) => a+b,0)
+},
+{
+    name: "stu2",
+    mark: [10,9,29,20,20],
+    r: mark.reduce((a, b) => a+b,0)
+},
+{
+    name: "stu3",
+    mark: [10,19,9,20,20],
+    r: mark.reduce((a, b) => a+b,0)
+}]
+console.log(stu.r);
 
+callback(){
+
+}*/
+
+/*function greet() {
+    console.log("Hello!");
+}
+
+function add(a, callback) {
+    console.log(a);    
+    callback();             
+}
+
+add(5, greet);*/
+
+let sett = new Set([0,0,9,8,7,7,76,56,6]);
+console.log(sett);
+console.log(sett.add(99));
+//add,del,has,clear,size
+console.log(sett.clear(9));
+
+console.log("Hello");
+setTimeout(()=> {
+console.log("world");},10000);
+console.log("Hello");
+
+/*console.log("Hello");
+setInterval(()=> {
+console.log("world");},1000);
+console.log("Hello");*/
+
+console.log("Numbers: ");
+let nu =10;
+setInterval(() => {
+    for (let i = 1; i<nu;i++)
+    console.log("num : ", i)
+},1000)
