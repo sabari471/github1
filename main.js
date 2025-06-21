@@ -158,3 +158,5 @@ setInterval(() => {
     for (let i = 1; i<nu;i++)
     console.log("num : ", i)
 },1000)
+
+
